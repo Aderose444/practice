@@ -1,0 +1,41 @@
+.intro{
+    display: flex;
+    background-color: rgba(17, 16, 17, 0.562);
+}
+
+.heros{
+    /* display: flex; */
+    background-color: #4CAF50;
+    color:white;
+    padding: 50px;
+    text-align: center;
+}
+
+.features{
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.cards{
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ddd ;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0 ,0, 1);
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

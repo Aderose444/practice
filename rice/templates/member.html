@@ -1,0 +1,47 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'beans/beans.css' %}">
+</head>
+<body>
+    <a href="{% url 'beans:team'%}">my second page</a>
+    <div class="intro">
+     <h1>OUR SERVICE </h1>
+     <h1>ROYAL BRAND CAKES</h1>
+    </div>
+    <div class="heros">
+        <h1>What we do</h1>
+        <p>Our brand does quality cake and deliver carefully</p>
+    </div>
+    <a href="{% url 'beans:team'%}">my second page</a>
+    <div class="features">
+        <h2>features</h2>
+        <p>
+            Decoration of cake
+            Pastries 
+            Cake covering
+        </p>
+    </div> 
+    <div class="cards">
+        <div class="card">
+            <h3>card 1</h3>
+            <p>This is first card</p>
+        </div>  
+        <div class="card">
+            <h3>card 2</h3>
+            <p>This is the second card</p>
+        </div>  
+        <div class="card 3">
+            <h3>card 3</h3>
+            <p>This is third card</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>footer section</p>
+    </div>   
+</body>
+</html>
